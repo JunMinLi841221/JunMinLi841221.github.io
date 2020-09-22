@@ -24,14 +24,14 @@ function App() {
           </Grid>        
         </Grid>  
         <br/><br/>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/MyEducation" component={Education}/>
           <Route path="/MyArtWorks" component={MyArt}/>
           <Route path="/MyProjects" component={MyProject}/>
           <Route exact path="/" component={About}/>
         </Switch>
-        </BrowserRouter>
+      </HashRouter>
    </div>
   );
 }
