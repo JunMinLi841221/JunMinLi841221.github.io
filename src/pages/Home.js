@@ -16,22 +16,22 @@ function App() {
           <Grid item xs={3}></Grid>
           <Grid className="overall" item xs={6}>
           <ButtonGroup variant="text" aria-label="text primary button group">
-            <Button  href = "/"> About Me</Button>
-            <Button  href = "https://junminli841221.github.io/MyEducation"> Education / Experience </Button>
-            <Button href = "https://junminli841221.github.io/MyEducation"> Art Works </Button>
-            <Button href = "https://junminli841221.github.io/MyEducation"> CS Projects </Button>
+            <Button href = "/"> About Me</Button>
+            <Button href = "https://junminli841221.github.io/#/MyEducation"> Education / Experience </Button>
+            <Button href = "https://junminli841221.github.io/#/MyArtWorks"> Art Works </Button>
+            <Button href = "https://junminli841221.github.io/#/MyProjects"> CS Projects </Button>
           </ButtonGroup>
           </Grid>        
         </Grid>  
         <br/><br/>
-      <HashRouter>
+      <BrowserRouter>
         <Switch>
           <Route path="/MyEducation" component={Education}/>
           <Route path="/MyArtWorks" component={MyArt}/>
           <Route path="/MyProjects" component={MyProject}/>
           <Route exact path="/" component={About}/>
         </Switch>
-      </HashRouter>
+        </BrowserRouter>
    </div>
   );
 }
