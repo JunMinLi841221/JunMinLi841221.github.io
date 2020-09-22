@@ -1,0 +1,93 @@
+.overall{
+    text-align: center;
+    align-items: center;
+}
+
+
+.nav{
+    position:absolute;
+    right:20px;
+}
+
+
+.education{
+    text-align:left;    
+    font-size: 1em;
+    padding-top:20px;
+}
+.sub_points{
+    background-color: darkslategray;
+    color:white;
+    padding:5px;
+}
+
+
+.name{
+    padding-left:20px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+.title{
+    text-align:center;
+    font-size:1.5em;
+}
+
+.sub_title{
+    padding-left:20px;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: gray;  
+}
+
+/* .bg{
+    background: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    height:500px;
+    background-position-x: center;
+    background-position-y: bottom;
+} */
+
+.me{
+    border-radius:30%;
+    height:150px;
+    width:150px;
+}
+
+.footer{
+   padding-top:50px;
+   position: fixed;
+   bottom:10px;
+   left:44%;
+}
+
+.card{
+    text-align: left;
+    max-width: 345;
+}
+
+
+.modal{
+    display: flex;
+    align-Items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.root{
+    display: flex;
+    width:80%;
+}
+
+.content {
+    padding-left:50px;
+    word-wrap:break-word;
+    width:550px;
+    /* flex: 10 0 auto */
+  }
+
+.cover{
+    width:60%;
+}
