@@ -47,7 +47,7 @@ function About() {
           <div>  
           <b>CURRENT OBJECTIVE</b><br/>
           Seeking a position in Computer Science field where I can fully utilize my potential, skill, and experience in industry. <br/>
-          In addition, creating a win-win situation by joining a productive team that not only has a common goal and great cooperation,<br/>
+          Creating a win-win situation by joining a productive team that not only has a common goal and great cooperation,<br/>
           but also provides opportunities for continue learning and self-growing.
           </div>
         </Zoom>
